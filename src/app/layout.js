@@ -5,8 +5,7 @@ import "./globals.css";
 import Header from "./components/header/Header";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/body/Footer";
-import FilterBar from "./components/body/FilterBar";
-
+import { Analytics } from "@vercel/analytics/react";
 // const zenDots = Zen_Dots({ weight: "400", subsets: ["latin"] });
 // const poppins = Poppins({
 //   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -27,6 +26,7 @@ export default function RootLayout({ children }) {
           position="top-right"
           reverseOrder={false}
         />
+        <Analytics />
         <div className="container px-8  lg:px-20 xl:px-80 py-8 relative flex flex-col gap-4">
           <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:14px_14px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div>
           <Header />
