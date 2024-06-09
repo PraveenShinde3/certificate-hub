@@ -18,12 +18,8 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Satoshi", sans-serif;
+  background: white;
 }
 
 @layer utilities {
@@ -31,3 +27,29 @@ body {
     text-wrap: balance;
   }
 }
+
+/* FONT  */
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../public/fonts/Satoshi-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../public/fonts/Satoshi-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../public/fonts/Satoshi-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../public/fonts/Satoshi-Black.ttf");
+  font-weight: 800;
+}
+
+
