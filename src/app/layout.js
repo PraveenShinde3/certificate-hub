@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex justify-center">
+      <body className="flex text-zinc-900 justify-center">
         <Toaster
           toastOptions={{ duration: 6000 }}
           position="top-right"
