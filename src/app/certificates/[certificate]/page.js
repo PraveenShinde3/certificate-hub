@@ -39,15 +39,15 @@ export default function Page({ params }) {
   }, [setCertificateData, id]);
 
   return (
-    <div className="px-12 flex">
+    <div className="px-2 md:px-12 flex">
       {certificateData.length > 0 ? (
         <AnimateDiv>
-          <div className="p-6 bg-[#FBFBFB]  rounded-lg">
+          <div className="p-2 md:p-6 bg-[#FBFBFB]  rounded-lg">
             <BackButton />
             <div className="rounded-lg bg-white overflow-hidden">
               <div className=" relative w-full  h-48 flex items-center justify-between">
                 <div className="absolute bg-white inset-0 z-10 h-full w-full  bg-[linear-gradient(to_right,#80808025_1px,transparent_1px),linear-gradient(to_bottom,#80808025_1px,transparent_1px)] bg-[size:8px_8px] [mask-image:radial-gradient(ellipse_100%_60%_at_50%_0%,#000_70%,transparent_110%)]"></div>
-                <div className="w-full z-10 px-12 flex justify-between items-center mt-10">
+                <div className="w-full z-10 px-2 md:px-12 flex flex-col md:flex-row gap-8 md:gap-0 justify-between md:items-center mt-10">
                   <div className=" flex gap-6">
                     <div className="w-16 rounded-md h-16 flex items-center max-h-fit p-2  ">
                       <Image
@@ -84,7 +84,7 @@ export default function Page({ params }) {
                   </div>
                 </div>
               </div>
-              <div className="px-12 py-2">
+              <div className="px-3 md:px-12 py-2">
                 <div className="flex flex-col gap-2 py-3">
                   <p className="text-[0.9rem] font-bold">
                     About the Certification
@@ -93,26 +93,26 @@ export default function Page({ params }) {
                     {certificateData[0].description}
                   </p>
                 </div>
-                <div className="py-3 grid grid-cols-2 grid-rows-2 gap-2">
+                <div className="py-3 grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-2">
                   <div className="flex gap-2 font-medium items-center text-[0.8rem] col-start-1 row-start-1">
-                    <IoMdTime />
+                    <IoMdTime className="min-w-fit" />
                     <p>
                       Exam Duration: {certificateData[0].exam_duration} minutes
                     </p>
                   </div>
-                  <div className="flex gap-2 font-medium items-center text-[0.8rem] col-start-2 row-start-1">
-                    <VscPass />
+                  <div className="flex gap-2 font-medium items-center text-[0.8rem] col-start-1 md:col-start-2 row-start-2 md:row-start-1">
+                    <VscPass className="min-w-fit" />
                     <p>
                       Passing Score: {certificateData[0].passing_score} out of{" "}
                       {certificateData[0].total_score} points
                     </p>
                   </div>
-                  <div className="flex gap-2 font-medium items-center text-[0.8rem] col-start-1 row-start-2">
-                    <SlBadge />
+                  <div className="flex gap-2 font-medium items-center text-[0.8rem] col-start-1 row-start-3 md:row-start-2">
+                    <SlBadge className="min-w-fit" />
                     <p>{certificateData[0].validate_description}</p>
                   </div>
-                  <div className="flex gap-2 font-medium items-center text-[0.8rem] col-start-2 row-start-2">
-                    <MdOutlineWorkOutline />
+                  <div className="flex gap-2 font-medium items-center text-[0.8rem] col-start-1 md:col-start-2 row-start-4 md:row-start-2">
+                    <MdOutlineWorkOutline className="min-w-fit" />
                     <p>Boost your career opportunities</p>
                   </div>
                 </div>

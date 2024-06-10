@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="py-12 px-24 w-2/3">
+    <div className="py-12 px-4 md:px-24 w-full md:w-2/3">
       <AnimateDiv>
         <div className="flex text-[0.85rem] flex-col gap-1 justify-center items-center">
           <p className="font-semibold">Certification Hub</p>
