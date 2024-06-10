@@ -375,4 +375,126 @@ export const certificates = [
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_microsoft-icon.png?t=2024-05-30T04%3A53%3A50.618Z",
   },
+  {
+    id: "d9e5f3a4-6b7d-4e3a-9c5e-8a3f5d7e5c8d",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Management", "Agile"],
+    },
+    title: "Certified ScrumMaster (CSM)",
+    description:
+      "The Certified ScrumMaster (CSM) credential is a globally recognized certification for professionals who want to become a Scrum Master.",
+    site_url:
+      "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster",
+    featured: true,
+    cost_usd: 495,
+    level: "Beginner",
+    validate_description: "Ability to facilitate and coach a Scrum team.",
+    key_features: [
+      "Understanding Scrum framework, roles and responsibilities, Scrum ceremonies, Scrum artifacts.",
+    ],
+    about_certifications:
+      "The Certified ScrumMaster (CSM) certification provides the foundational knowledge needed to perform the role of Scrum Master or Scrum team member.",
+    exam_duration: 60,
+    passing_score: 74,
+    total_score: 100,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/ScrumMaster-logo.png?t=2024-06-10T12%3A49%3A36.374Z",
+  },
+  {
+    id: "e9b6f4a3-2d5c-4a3e-8b9c-1a3f5d7e9c8d",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Networking", "Cisco"],
+    },
+    title: "Cisco Certified Network Professional (CCNP)",
+    description:
+      "The Cisco Certified Network Professional (CCNP) certification validates the skills required to plan, implement, verify, and troubleshoot local and wide-area enterprise networks and work collaboratively with specialists on advanced security, voice, wireless, and video solutions.",
+    site_url:
+      "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html",
+    featured: true,
+    cost_usd: 300,
+    level: "Professional",
+    validate_description:
+      "Ability to implement and troubleshoot enterprise networks.",
+    key_features: [
+      "Enterprise networking, advanced routing, switching, troubleshooting, security, and automation.",
+    ],
+    about_certifications:
+      "The Cisco Certified Network Professional (CCNP) certification is designed for professionals who want to advance their networking skills and knowledge, and is ideal for roles such as network engineer, systems engineer, and network technician.",
+    exam_duration: 120,
+    passing_score: 825,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/cisco-logo.png?t=2024-06-06T11%3A56%3A33.637Z",
+    why_to_get_certified: [
+      "Demonstrates advanced knowledge and skills in networking.",
+      "Makes you a valuable asset to employers.",
+      "Opens up opportunities for career advancement.",
+      "Increases salary potential.",
+    ],
+  },
+  {
+    id: "f3a9d7c4-5b6e-4e3d-8c5e-2a9f7d4e5c8d",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Networking", "Juniper"],
+    },
+    title: "Juniper Networks Certified Associate - Junos (JNCIA-Junos)",
+    description:
+      "The Juniper Networks Certified Associate - Junos (JNCIA-Junos) certification is designed for networking professionals with beginner-intermediate knowledge of networking. It validates understanding of networking fundamentals, as well as core Juniper Networks technologies.",
+    site_url:
+      "https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html",
+    featured: true,
+    cost_usd: 200,
+    level: "Associate",
+    validate_description:
+      "Ability to demonstrate understanding of the Junos OS, networking fundamentals, and basic routing and switching.",
+    key_features: [
+      "Networking fundamentals, Junos OS fundamentals, user interfaces, configuration basics, operational monitoring and maintenance, routing fundamentals, routing policy and firewall filters.",
+    ],
+    about_certifications:
+      "The JNCIA-Junos certification is an entry-level certification for networking professionals, validating their understanding of core networking concepts and Junos OS. It is the first step in the Juniper Networks certification tracks.",
+    exam_duration: 90,
+    passing_score: 60,
+    total_score: 100,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/Juniper-logo.png?t=2024-06-10T13%3A06%3A10.211Z",
+    why_to_get_certified: [
+      "Validates understanding of networking fundamentals and Junos OS.",
+      "Enhances career opportunities in network engineering and administration.",
+      "Recognized by employers globally as a mark of expertise in Juniper Networks technologies.",
+    ],
+  },
+  {
+    id: "c8d4a7b3-1f6e-4e2d-9b4e-7f8c5e4d3b9c",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Cloud", "CompTIA"],
+    },
+    title: "CompTIA Cloud+ (CV0-003)",
+    description:
+      "The CompTIA Cloud+ (CV0-003) certification validates the skills and expertise needed to deploy and automate secure cloud environments that support the high availability of business systems and data.",
+    site_url: "https://www.comptia.org/certifications/cloud",
+    featured: true,
+    cost_usd: 348,
+    level: "Intermediate",
+    validate_description:
+      "Ability to configure, manage, and troubleshoot cloud infrastructure, including implementing security measures and ensuring availability.",
+    key_features: [
+      "Cloud architecture and design, security in cloud, deployment, operations, troubleshooting, and automation.",
+    ],
+    about_certifications:
+      "The CompTIA Cloud+ certification covers the technical skills required to secure and optimize cloud deployments, focusing on both cloud infrastructure and services. It is ideal for cloud engineers and administrators.",
+    exam_duration: 90,
+    passing_score: 750,
+    total_score: 900,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/CompTiaCloud-logo.png?t=2024-06-10T13%3A13%3A42.532Z",
+    why_to_get_certified: [
+      "Validates technical skills required to secure and optimize cloud deployments.",
+      "Enhances career opportunities in cloud engineering and administration.",
+      "Recognized globally as a standard for cloud computing expertise.",
+    ],
+  },
 ];
