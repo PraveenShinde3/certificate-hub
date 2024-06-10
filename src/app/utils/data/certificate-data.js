@@ -25,6 +25,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/Kubernetes_logo.png?t=2024-05-30T04%3A41%3A47.021Z",
+    why_to_get_certified: [
+      "Validate your skills in designing, deploying, and managing Kubernetes clusters and applications, essential for modern containerized application environments.",
+      "Enhance your career prospects and job opportunities in Kubernetes administration, as Kubernetes is the leading container orchestration platform.",
+      "Earn recognition for your expertise in Kubernetes, demonstrating your ability to manage production-grade Kubernetes environments effectively.",
+    ],
   },
   {
     id: "bc1d27e6-63c2-46b6-b7f8-6ee5771ba410",
@@ -53,6 +58,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_docker-icon.png?t=2024-05-31T04%3A47%3A37.372Z",
+    why_to_get_certified: [
+      "Validate your skills in designing, building, and managing containerized applications using Docker, crucial for modern software development and DevOps practices.",
+      "Enhance your career prospects and job opportunities in containerization and DevOps, as Docker is widely adopted by organizations for container management.",
+      "Earn recognition for your Docker expertise, demonstrating your ability to use Docker tools effectively to build and deploy applications.",
+    ],
   },
   {
     id: "c20244ce-1db3-4f4f-9631-299583b5b2c7",
@@ -83,6 +93,11 @@ export const certificates = [
     total_score: 1000,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_microsoft-icon.png?t=2024-05-30T04%3A53%3A50.618Z",
+    why_to_get_certified: [
+      "Validate your expertise in implementing and maintaining DevOps processes and practices using Microsoft technologies, essential for modern IT operations.",
+      "Enhance your career prospects and job opportunities in DevOps, as Microsoft technologies are widely adopted across industries.",
+      "Earn recognition for your skills in deploying and maintaining applications on Microsoft Azure, setting you apart in the field of cloud computing and DevOps.",
+    ],
   },
   {
     id: "1cb02e60-87b1-4dd6-8985-b9ee982084ed",
@@ -110,6 +125,11 @@ export const certificates = [
     total_score: 1000,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Validate your advanced technical skills in provisioning, managing, and operating AWS environments, crucial for DevOps engineering roles.",
+      "Enhance your career opportunities and job prospects in DevOps and cloud computing, as AWS is one of the leading cloud service providers.",
+      "Earn global recognition and credibility for your expertise in AWS cloud technologies, setting a high standard for professional achievement.",
+    ],
   },
   {
     id: "96b66126-a6be-406d-81bf-fb2705d11304",
@@ -138,6 +158,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_puppet-icon.png",
+    why_to_get_certified: [
+      "Demonstrate your expertise in Puppet automation, essential for maintaining consistency and scalability in infrastructure management.",
+      "Enhance your career prospects and job opportunities in DevOps, as Puppet is widely used for configuration management and automation.",
+      "Earn a respected credential that validates your ability to design and implement Puppet solutions, recognized by employers globally.",
+    ],
   },
   {
     id: "546f602d-9a82-408f-ba5f-62761d8d1d34",
@@ -166,6 +191,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/jenkins-logo.png?t=2024-06-06T12%3A13%3A51.135Z",
+    why_to_get_certified: [
+      "Validate your expertise in Jenkins automation and CI/CD processes, essential for accelerating software development and improving deployment efficiency.",
+      "Enhance your career prospects and job opportunities in DevOps, as Jenkins is widely used in continuous integration and delivery pipelines.",
+      "Earn a respected credential that demonstrates your ability to manage and optimize Jenkins environments, recognized by employers globally.",
+    ],
   },
   {
     id: "f7e5679b-1b49-48c2-a6f0-1a1cdd9d5b39",
@@ -190,6 +220,11 @@ export const certificates = [
     total_score: 1000,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_microsoft-icon.png?t=2024-05-30T04%3A53%3A50.618Z",
+    why_to_get_certified: [
+      "Demonstrate your ability to design and implement secure, scalable, and reliable Azure solutions, making you a critical asset for organizations using Azure cloud services.",
+      "Enhance your career prospects and job opportunities in cloud architecture and Azure-based solutions, industries with high demand and competitive salaries.",
+      "Earn recognition for your expertise in Azure cloud technologies, establishing yourself as a trusted professional in the field.",
+    ],
   },
   {
     id: "e7e5679b-1b49-48c2-a6f0-1a1cdd9d5b38",
@@ -217,6 +252,11 @@ export const certificates = [
     total_score: 1000,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/cisco-logo.png?t=2024-06-06T11%3A56%3A33.637Z",
+    why_to_get_certified: [
+      "Become proficient in installing, configuring, and troubleshooting Cisco networks, essential for building a career in network engineering.",
+      "Enhance your job prospects and career opportunities in networking, as CCNA certification is highly recognized by employers globally.",
+      "Earn a respected credential that validates your expertise in Cisco networking technologies, setting you apart in the IT industry.",
+    ],
   },
   {
     id: "d7e5679b-1b49-48c2-a6f0-1a1cdd9d5b37",
@@ -242,6 +282,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/PMP-logo.png?t=2024-06-06T13%3A29%3A53.100Z",
+    why_to_get_certified: [
+      "Demonstrate your ability to manage and lead projects effectively, making you a valuable asset in any industry.",
+      "Enhance your career opportunities and job prospects in project management, a field with high demand and lucrative salaries.",
+      "Earn global recognition and credibility for your project management expertise, distinguishing yourself as a trusted professional.",
+    ],
   },
   {
     id: "c7e5679b-1b49-48c2-a6f0-1a1cdd9d5b36",
@@ -267,6 +312,11 @@ export const certificates = [
     total_score: 1000,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/CISSP-Logo.png?t=2024-06-06T14%3A11%3A18.322Z",
+    why_to_get_certified: [
+      "Establish yourself as a highly skilled cybersecurity professional capable of designing and managing robust security programs.",
+      "Advance your career opportunities and job prospects in cybersecurity management and leadership roles.",
+      "Gain global recognition and credibility for your expertise, setting you apart in the competitive field of information security.",
+    ],
   },
   {
     id: "f847b4a7-62e2-47c3-ae9d-14dcf71e0a5d",
@@ -294,6 +344,11 @@ export const certificates = [
     total_score: 1000,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Become a skilled architect capable of designing scalable and fault-tolerant AWS solutions, crucial for organizations transitioning to cloud-based architectures.",
+      "Position yourself as a trusted advisor for AWS cloud solutions, improving your career prospects and earning potential in cloud architecture roles.",
+      "Earn recognition for your expertise in AWS cloud technologies, setting a global standard for your professional capabilities.",
+    ],
   },
   {
     id: "b7e3a3e2-9d5f-4f5e-b8a1-4d4f3c2e6d7e",
@@ -321,6 +376,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Enhance your ability to design and deploy machine learning solutions on AWS, making you a valuable asset for organizations adopting cloud-based ML technologies.",
+      "Increase your career opportunities and job prospects in the rapidly growing fields of machine learning and cloud computing.",
+      "Validate your expertise in AWS machine learning technologies, recognized globally as a mark of excellence.",
+    ],
   },
   {
     id: "a9b8c8f2-5c76-4b67-8d2e-3e3b3c2d4e5a",
@@ -347,6 +407,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/google-logo.png",
+    why_to_get_certified: [
+      "Demonstrates expertise in designing and managing data processing systems on Google Cloud Platform.",
+      "Enhances career opportunities and job prospects in data engineering and analytics.",
+      "Recognized globally as a mark of expertise in Google Cloud data technologies.",
+    ],
   },
   {
     id: "9a6f428a-2f3d-4b56-a473-bf2e828d2d7c",
@@ -374,6 +439,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_microsoft-icon.png?t=2024-05-30T04%3A53%3A50.618Z",
+    why_to_get_certified: [
+      "Demonstrates expertise in managing Azure subscriptions and resources.",
+      "Enhances career opportunities and job prospects in cloud administration.",
+      "Recognized globally as a standard for Azure administration expertise.",
+    ],
   },
   {
     id: "d9e5f3a4-6b7d-4e3a-9c5e-8a3f5d7e5c8d",
@@ -400,6 +470,11 @@ export const certificates = [
     total_score: 100,
     img_url:
       "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/ScrumMaster-logo.png?t=2024-06-10T12%3A49%3A36.374Z",
+    why_to_get_certified: [
+      "Enhances your ability to effectively lead and manage Scrum teams.",
+      "Increases job opportunities and career growth in Agile project management.",
+      "Recognized globally as a mark of expertise in Scrum and Agile methodologies.",
+    ],
   },
   {
     id: "e9b6f4a3-2d5c-4a3e-8b9c-1a3f5d7e9c8d",

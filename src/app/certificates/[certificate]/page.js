@@ -129,12 +129,13 @@ export default function Page({ params }) {
                 <div className="py-3">
                   <p className="text-[0.9rem] font-bold">Why Get Certified?</p>
                   <ul className="px-4 py-1 text-[0.85rem] opacity-70 font-medium list-disc list-inside">
-                    <li>
-                      Comprehensive coverage of AWS services and best practices
-                    </li>
-                    <li>
-                      Hands-on experience with AWS management console and CLI.
-                    </li>
+                    {certificateData[0].why_to_get_certified.map(
+                      (feature, index) => (
+                        <li key={index} className="py-1 capitalize">
+                          {feature}
+                        </li>
+                      )
+                    )}
                   </ul>
                 </div>
                 {/* <p>Post: {params.certificate}</p> */}
