@@ -1,8 +1,6 @@
 import { IoSearchOutline } from "react-icons/io5";
 
-export {IoSearchOutline}
-
-
+export { IoSearchOutline };
 
 // gradients.js
 export const gradients = [
@@ -87,4 +85,3 @@ export const childrenVariants = {
     },
   },
 };
-

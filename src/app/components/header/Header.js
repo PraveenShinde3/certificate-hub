@@ -20,7 +20,7 @@ const Header = () => {
             </p>
             <Link href="/submit">
               <button className="hover:text-white hover:opacity-100 transition-colors duration-200 ease-in-out font-bold opacity-70 text-black hover:bg-zinc-700  text-[0.8rem] bg-[#f3f3f3] rounded-md px-3 py-1">
-                Submit link
+                Submit Certificate
               </button>
             </Link>
           </div>

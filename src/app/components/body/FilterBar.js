@@ -68,49 +68,58 @@ const FilterBar = () => {
           className="flex z-20 w-80 md:w-full justify-center items-center"
         >
           <div className="flex flex-col bg-white border-[2px] border-zinc-100 w-96 max-h-96 overflow-y-auto  rounded-xl p-3 shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] gap-2 items-center ">
-            {certificateData.map((certificate) => (
-              <Link
-                key={certificate.id}
-                className="w-full"
-                href={{
-                  pathname: `/certificates/${certificate.title}`,
-                  query: { id: certificate.id },
-                }}
-                onClick={() => {
-                  setSearchValue("");
-                }}
-              >
-                <motion.div
-                  variants={childrenVariants}
-                  whileHover={{
-                    scale: 1.02,
-                    transition: { duration: 0.1 },
+            {certificateData.length > 0 ? (
+              certificateData.map((certificate) => (
+                <Link
+                  key={certificate.id}
+                  className="w-full"
+                  href={{
+                    pathname: `/certificates/${certificate.title}`,
+                    query: { id: certificate.id },
                   }}
-                  className="w-full border-2 border-zinc-50 hover:scale-[1.02] transition-all ease-in-out duration-150 hover:shadow-[0_8px_30px_rgb(0,0,0,0.042)] rounded-md p-3 flex gap-2 "
+                  onClick={() => {
+                    setSearchValue("");
+                  }}
                 >
-                  <div className="flex items-center">
-                    <Image
-                      src={certificate.img_url}
-                      width="0"
-                      height="0"
-                      sizes="100vw"
-                      className="w-10 h-auto"
-                      alt="Icons"
-                    />
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <p className="text-[0.8rem] w-fit font-bold ">
-                      {certificate.title}
-                    </p>
-                    <div className="w-64 overflow-hidden">
-                      <p className="text-[0.8rem] opacity-50 whitespace-nowrap overflow-hidden text-ellipsis">
-                        {certificate.description}
-                      </p>
+                  <motion.div
+                    variants={childrenVariants}
+                    whileHover={{
+                      scale: 1.02,
+                      transition: { duration: 0.1 },
+                    }}
+                    className="w-full border-2 border-zinc-50 hover:scale-[1.02] transition-all ease-in-out duration-150 hover:shadow-[0_8px_30px_rgb(0,0,0,0.042)] rounded-md p-3 flex gap-2 "
+                  >
+                    <div className="flex items-center">
+                      <Image
+                        src={certificate.img_url}
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-10 h-auto"
+                        alt="Icons"
+                      />
                     </div>
-                  </div>
-                </motion.div>
-              </Link>
-            ))}
+                    <div className="flex flex-col gap-1">
+                      <p className="text-[0.8rem] w-fit font-bold ">
+                        {certificate.title}
+                      </p>
+                      <div className="w-64 overflow-hidden">
+                        <p className="text-[0.8rem] opacity-50 whitespace-nowrap overflow-hidden text-ellipsis">
+                          {certificate.description}
+                        </p>
+                      </div>
+                    </div>
+                  </motion.div>
+                </Link>
+              ))
+            ) : (
+              <div className="border-2 border-zinc-50 text-center w-full p-2 ">
+                <p className="text-[0.9rem] font-bold">No Certificate Found</p>
+                <p className="text-[0.8rem] opacity-50">
+                  Please try again with different keyword
+                </p>
+              </div>
+            )}
           </div>
         </motion.div>
       )}
