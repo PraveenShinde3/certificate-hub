@@ -125,21 +125,21 @@ const FilterBar = () => {
       )}
       <AnimateDiv>
         <div className="conatiner w-80 md:w-full h-20 bg-gradient-to-t  from-white via-white to-slate-50/5  p-1 rounded-md flex justify-center items-center gap-4">
-          <div className="flex bg-white border-[2px] border-zinc-100 w-96 rounded-xl px-4 py-2 shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] gap-4 items-center justify-between ">
+          <div className="flex bg-white focus-within:border-zinc-900 border-[2px] border-zinc-100 w-96 rounded-xl px-4 py-2 shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] gap-4 items-center justify-between ">
             <form
               className="flex items-center w-full justify-center "
               onSubmit={handleSubmit}
             >
               <div className="w-full flex gap-2 items-center justify-center ">
-                <IoSearchOutline className=" text-zinc-400" size="0.9rem" />
+                <IoSearchOutline className="text-zinc-900" size="0.9rem" />
                 <input
                   type="text"
                   autoComplete="off"
                   id="voice-search"
-                  placeholder="Search Certificate"
+                  placeholder="Search Certificate..."
                   required
                   onChange={handleChange}
-                  className="text-[0.9rem] w-full  outline-none p-[0.25rem] bg-transparent  "
+                  className="text-[0.9rem] w-full text-zinc-900 font-medium outline-none p-[0.25rem] bg-transparent "
                 />
               </div>
             </form>
