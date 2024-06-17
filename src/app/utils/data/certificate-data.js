@@ -552,7 +552,7 @@ export const certificates = [
       "The CompTIA Cloud+ (CV0-003) certification validates the skills and expertise needed to deploy and automate secure cloud environments that support the high availability of business systems and data.",
     site_url: "https://www.comptia.org/certifications/cloud",
     featured: true,
-    cost_usd: 348,
+    cost_usd: 369,
     level: "Intermediate",
     validate_description:
       "Ability to configure, manage, and troubleshoot cloud infrastructure, including implementing security measures and ensuring availability.",
@@ -570,6 +570,227 @@ export const certificates = [
       "Validates technical skills required to secure and optimize cloud deployments.",
       "Enhances career opportunities in cloud engineering and administration.",
       "Recognized globally as a standard for cloud computing expertise.",
+    ],
+  },
+  {
+    id: "f3e6a8d9-2c5e-4f5e-8c7b-9e8f6e7d1c0a",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["IT", "CompTIA"],
+    },
+    title: "CompTIA A+ (220-1101 & 220-1102)",
+    description:
+      "The CompTIA A+ certification validates foundational skills and expertise required for entry-level IT roles, covering essential areas such as hardware, software, networking, and security.",
+    site_url: "https://www.comptia.org/certifications/a",
+    featured: true,
+    cost_usd: 253,
+    level: "Beginner",
+    validate_description:
+      "Ability to install, configure, and troubleshoot various hardware and software components, and implement basic security measures in IT environments.",
+    key_features: [
+      "Hardware and network troubleshooting, operating systems, mobile devices, security, and operational procedures.",
+    ],
+    about_certifications:
+      "The CompTIA A+ certification covers the technical skills required for IT support roles, emphasizing practical problem-solving abilities. It is ideal for aspiring IT professionals, support technicians, and help desk staff.",
+    exam_duration: 90,
+    passing_score: 675,
+    total_score: 900,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/CompITA-Aplus.png?t=2024-06-17T13%3A04%3A25.495Z",
+    why_to_get_certified: [
+      "Validates essential IT skills required for entry-level roles.",
+      "Enhances career opportunities in IT support and help desk positions.",
+      "Recognized globally as a standard for foundational IT expertise.",
+    ],
+  },
+  {
+    id: "b1d5a3f7-4a6e-47d8-9a2b-7f8c6e5d3b0d",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Cloud", "AWS"],
+    },
+    title: "AWS Certified Cloud Practitioner",
+    description:
+      "The AWS Certified Cloud Practitioner certification validates foundational knowledge of the AWS cloud platform, including core services, security, architecture, and pricing.",
+    site_url:
+      "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    featured: true,
+    cost_usd: 100,
+    level: "Beginner",
+    validate_description:
+      "Validates foundational understanding of AWS cloud services.",
+    key_features: [
+      "AWS cloud concepts, security and compliance, technology, and billing and pricing.",
+    ],
+    about_certifications:
+      "The AWS Certified Cloud Practitioner certification covers the fundamental concepts and services of the AWS cloud platform. It is ideal for individuals in technical, managerial, sales, purchasing, or financial roles who work with the AWS cloud.",
+    exam_duration: 90,
+    passing_score: 700,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Demonstrates foundational AWS cloud knowledge.",
+      "Enhances career opportunities across various roles interacting with AWS.",
+      "Recognized globally as a standard for basic AWS cloud expertise.",
+    ],
+  },
+  {
+    id: "d2f7b8c9-3e7a-4d6e-9f1a-8f9c6e6d2c1e",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Cloud", "Azure"],
+    },
+    title: "Azure Developer Associate",
+    description:
+      "The Microsoft Certified: Azure Developer Associate certification validates the skills and expertise required to design, build, test, and maintain cloud applications and services on Microsoft Azure.",
+    site_url:
+      "https://learn.microsoft.com/en-us/certifications/azure-developer/",
+    featured: true,
+    cost_usd: 165,
+    level: "Intermediate",
+    validate_description:
+      "Validates skills in developing cloud applications on Azure.",
+    key_features: [
+      "Development of Azure compute solutions, storage, security, and monitoring.",
+    ],
+    about_certifications:
+      "The Microsoft Certified: Azure Developer Associate certification covers the technical skills required to develop and maintain applications on Azure, focusing on compute solutions, storage, security, and monitoring. It is ideal for cloud developers and software engineers.",
+    exam_duration: 120,
+    passing_score: 700,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_microsoft-icon.png?t=2024-05-30T04%3A53%3A50.618Z",
+    why_to_get_certified: [
+      "Demonstrates expertise in developing applications on Azure.",
+      "Enhances career opportunities in cloud development and software engineering.",
+      "Recognized globally as a standard for Azure development skills.",
+    ],
+  },
+  {
+    id: "e3f8b9da-5f8d-4d9e-9b7e-9f8d6e7e1d2a",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Cloud", "Azure"],
+    },
+    title: "Azure Fundamentals (AZ-900)",
+    description:
+      "The Microsoft Certified: Azure Fundamentals (AZ-900) certification validates foundational knowledge of cloud services and how they are provided with Microsoft Azure.",
+    site_url:
+      "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+    featured: true,
+    cost_usd: 99,
+    level: "Beginner",
+    validate_description:
+      "Validates foundational understanding of Azure services.",
+    key_features: [
+      "Cloud concepts, Azure services, Azure workloads, security and privacy in Azure, and Azure pricing and support.",
+    ],
+    about_certifications:
+      "The Microsoft Certified: Azure Fundamentals certification covers basic cloud concepts and core Azure services. It is ideal for individuals starting their career in cloud computing or those new to Azure.",
+    exam_duration: 85,
+    passing_score: 700,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_microsoft-icon.png?t=2024-05-30T04%3A53%3A50.618Z",
+    why_to_get_certified: [
+      "Demonstrates fundamental Azure cloud knowledge.",
+      "Provides a strong foundation for advanced Azure certifications.",
+      "Recognized globally as an introduction to Azure cloud services.",
+    ],
+  },
+  {
+    id: "f9d2a8c5-7e4b-4b2e-9c1f-8a9d7e3d2f1c",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Security", "CompTIA"],
+    },
+    title: "CompTIA Security+ (SY0-601)",
+    description:
+      "The CompTIA Security+ (SY0-601) certification validates the essential skills and knowledge needed to assess the security posture of an enterprise environment and recommend and implement appropriate security solutions.",
+    site_url: "https://www.comptia.org/certifications/security",
+    featured: true,
+    cost_usd: 404,
+    level: "Intermediate",
+    validate_description:
+      "Validates skills in assessing and managing security risks.",
+    key_features: [
+      "Threats, attacks, and vulnerabilities, risk management, architecture and design, implementation, operations and incident response, and governance, risk, and compliance.",
+    ],
+    about_certifications:
+      "The CompTIA Security+ certification covers the core knowledge required for any cybersecurity role, focusing on practical skills in risk assessment, incident response, and architecture. It is ideal for security administrators and network administrators.",
+    exam_duration: 90,
+    passing_score: 750,
+    total_score: 900,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/CompITA-Securotyplus.png?t=2024-06-17T12%3A54%3A15.807Z",
+    why_to_get_certified: [
+      "Validates essential cybersecurity skills and knowledge.",
+      "Enhances career opportunities in cybersecurity and IT security roles.",
+      "Recognized globally as a standard for foundational cybersecurity expertise.",
+    ],
+  },
+  {
+    id: "b5e8f2a1-3c9d-4e6b-a7d8-6e9c4d5f8a2b",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Cloud", "Kubernetes"],
+    },
+    title: "Certified Kubernetes Application Developer (CKAD)",
+    description:
+      "The Certified Kubernetes Application Developer (CKAD) certification is designed for Kubernetes application developers who have a strong understanding of core concepts and principles.",
+    site_url: "https://www.cncf.io/certification/ckad/",
+    featured: true,
+    cost_usd: 395,
+    level: "Intermediate",
+    validate_description:
+      "Validates skills in designing, building, and deploying applications on Kubernetes.",
+    key_features: [
+      "Core concepts, application lifecycle management, observability, and troubleshooting.",
+      "Service & Network and Security and Kubernetes",
+    ],
+    about_certifications:
+      "The Certified Kubernetes Application Developer (CKAD) certification demonstrates that you can design, build, configure, and expose cloud native applications for Kubernetes. It is ideal for developers who use Kubernetes to deploy applications.",
+    exam_duration: 120,
+    passing_score: 66,
+    total_score: 100,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/Kubernetes_logo.png?t=2024-05-30T04%3A41%3A47.021Z",
+    why_to_get_certified: [
+      "Validates expertise in Kubernetes application development.",
+      "Enhances career opportunities in cloud native development and Kubernetes.",
+      "Recognized globally as a standard for Kubernetes application developers.",
+    ],
+  },
+  {
+    id: "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Networking", "CompTIA"],
+    },
+    title: "CompTIA Network+ (N10-008)",
+    description:
+      "The CompTIA Network+ certification validates the essential knowledge and skills needed to confidently design, configure, manage, and troubleshoot any wired and wireless network.",
+    site_url: "https://www.comptia.org/certifications/network",
+    featured: true,
+    cost_usd: 369,
+    level: "Intermediate",
+    validate_description:
+      "Validates skills in networking concepts, infrastructure, operations, and security.",
+    key_features: [
+      "Network technologies, installation and configuration, media and topologies, management, and security.",
+    ],
+    about_certifications:
+      "The CompTIA Network+ certification covers the technical skills required to manage and troubleshoot networks. It is ideal for network professionals, system engineers, network technicians, and IT professionals.",
+    exam_duration: 90,
+    passing_score: 720,
+    total_score: 900,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/CompTIA-NetwrokPlus.png?t=2024-06-17T13%3A06%3A59.058Z",
+    why_to_get_certified: [
+      "Validates essential networking skills and knowledge.",
+      "Enhances career opportunities in network administration and IT infrastructure roles.",
+      "Recognized globally as a standard for foundational networking expertise.",
     ],
   },
 ];
