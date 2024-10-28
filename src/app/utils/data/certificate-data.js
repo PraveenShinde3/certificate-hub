@@ -793,4 +793,326 @@ export const certificates = [
       "Recognized globally as a standard for foundational networking expertise.",
     ],
   },
+  {
+    id: "e9f8d7c6-b5a4-3d2e-1f0g-8h7j6k5l4m3n",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Monitoring", "Prometheus"],
+    },
+    title: "Prometheus Certified Associate (PCA)",
+    description:
+      "The Prometheus Certified Associate certification establishes foundational knowledge for using Prometheus in monitoring and alerting, essential for cloud-native environments.",
+    site_url:
+      "https://training.linuxfoundation.org/certification/prometheus-certified-associate/",
+    featured: true,
+    cost_usd: 250,
+    level: "Beginner to Intermediate",
+    validate_description:
+      "Validates skills in Prometheus setup, PromQL querying, and alerting mechanisms in cloud-native contexts.",
+    key_features: [
+      "Prometheus architecture and setup, querying with PromQL, data collection, and alert configuration.",
+    ],
+    about_certifications:
+      "Ideal for DevOps professionals, system engineers, and IT operators, the PCA certification demonstrates expertise in using Prometheus effectively for cloud-native monitoring.",
+    exam_duration: 90,
+    passing_score: 70,
+    total_score: 100,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/Prometheous_PCA.png?t=2024-10-27T17%3A03%3A39.910Z",
+    why_to_get_certified: [
+      "Gain recognized skills in open-source monitoring solutions.",
+      "Essential for roles requiring cloud-native infrastructure monitoring.",
+      "Improves career prospects in DevOps and IT operations.",
+    ],
+  },
+  {
+    id: "f1a2b3c4-d5e6-7g8h-9i0j-1k2l3m4n5o6p",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Database", "MongoDB"],
+    },
+    title: "MongoDB Certified Developer Associate",
+    description:
+      "The MongoDB Certified Developer Associate exam verifies skills in building and managing MongoDB applications, covering fundamentals of database concepts, CRUD operations, and indexing.",
+    site_url:
+      "https://learn.mongodb.com/pages/mongodb-associate-developer-exam",
+    featured: true,
+    cost_usd: 150,
+    level: "Associate",
+    validate_description:
+      "Certifies proficiency in creating efficient MongoDB applications, database design, and indexing strategies.",
+    key_features: [
+      "CRUD operations, aggregation, indexing, data modeling, and database design.",
+    ],
+    about_certifications:
+      "This certification is intended for software developers and engineers who use MongoDB in application development, providing a foundational credential for database proficiency.",
+    exam_duration: 90,
+    passing_score: 70,
+    total_score: 100,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/Mongodb.png?t=2024-10-27T17%3A09%3A20.826Z",
+    why_to_get_certified: [
+      "Enhances credibility in MongoDB development.",
+      "Expands career opportunities in database management roles.",
+      "Recognized by employers as a benchmark for MongoDB skills.",
+    ],
+  },
+  {
+    id: "g3h2i1j0-k9l8-m7n6-o5p4-3q2r1s0t9u8v",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["AI", "Google"],
+    },
+    title: "Google AI Essentials",
+    description:
+      "An introductory course to artificial intelligence, covering the basics of AI and machine learning, including key concepts, applications, and ethical considerations.",
+    site_url: "https://www.coursera.org/learn/google-ai-essentials",
+    featured: true,
+    cost_usd: 49,
+    level: "Beginner",
+    validate_description:
+      "Introduces foundational AI concepts and real-world applications.",
+    key_features: [
+      "Basics of AI and machine learning, real-world AI applications, ethical considerations.",
+    ],
+    about_certifications:
+      "Designed for beginners, this course provides essential knowledge in AI and prepares learners for more advanced AI concepts.",
+    exam_duration: 60,
+    passing_score: 75,
+    total_score: 100,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/google-logo.png",
+    why_to_get_certified: [
+      "Provides foundational AI knowledge.",
+      "Prepares for further AI learning paths.",
+      "Recognized by industry as a basic AI skill set.",
+    ],
+  },
+  {
+    id: "h8g7f6e5-d4c3-b2a1-9j0k-1l2m3n4o5p6q",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["AWS", "SysOps"],
+    },
+    title: "AWS Certified SysOps Administrator – Associate",
+    description:
+      "The AWS Certified SysOps Administrator – Associate certification validates expertise in deploying, managing, and operating scalable, highly available, and fault-tolerant systems on AWS.",
+    site_url:
+      "https://aws.amazon.com/certification/certified-sysops-admin-associate/",
+    featured: true,
+    cost_usd: 150,
+    level: "Associate",
+    validate_description:
+      "Certifies skills in monitoring, automation, security, and troubleshooting AWS environments.",
+    key_features: [
+      "Deployment, management, security, automation, and troubleshooting in AWS environments.",
+    ],
+    about_certifications:
+      "This certification is intended for system administrators with one or more years of hands-on experience managing cloud applications and infrastructure on AWS.",
+    exam_duration: 130,
+    passing_score: 720,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Enhances skills in AWS operational best practices.",
+      "Opens opportunities in cloud administration roles.",
+      "Recognized globally as a standard for AWS expertise.",
+    ],
+  },
+  {
+    id: "c9b8a7d6-e5f4-3g2h-1i0j-7k6l5m4n3o2p",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["ML", "AWS"],
+    },
+    title: "AWS Certified Machine Learning – Specialty",
+    description:
+      "The AWS Certified Machine Learning – Specialty certification validates expertise in designing, deploying, and implementing machine learning solutions on AWS.",
+    site_url:
+      "https://aws.amazon.com/certification/certified-machine-learning-specialty/",
+    featured: true,
+    cost_usd: 300,
+    level: "Specialty",
+    validate_description:
+      "Demonstrates skills in building and deploying ML solutions in the AWS Cloud.",
+    key_features: [
+      "Data engineering, ML model deployment, feature engineering, and model tuning on AWS.",
+    ],
+    about_certifications:
+      "Ideal for professionals in machine learning roles looking to validate their expertise in developing AWS-based ML solutions.",
+    exam_duration: 180,
+    passing_score: 750,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Proves expertise in ML on AWS.",
+      "Opens opportunities in AI-driven and cloud-based roles.",
+      "Globally recognized in ML and AI solutions.",
+    ],
+  },
+  {
+    id: "d7f6e5a4-b3c2-9j0h-1i2k-3l4m5n6o7p8q",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["AWS", "Developer"],
+    },
+    title: "AWS Certified Developer – Associate",
+    description:
+      "The AWS Certified Developer – Associate certification demonstrates expertise in developing, deploying, and debugging cloud-based applications on AWS.",
+    site_url:
+      "https://aws.amazon.com/certification/certified-developer-associate/",
+    featured: true,
+    cost_usd: 150,
+    level: "Associate",
+    validate_description:
+      "Validates skills in AWS core services, development, and debugging on the AWS cloud.",
+    key_features: [
+      "AWS SDK, DynamoDB, Lambda, API Gateway, and application security.",
+    ],
+    about_certifications:
+      "Ideal for developers with experience building and maintaining AWS applications.",
+    exam_duration: 130,
+    passing_score: 720,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Validates AWS application development skills.",
+      "Enhances career opportunities in cloud-based roles.",
+      "Recognized globally as a standard for AWS development expertise.",
+    ],
+  },
+  {
+    id: "g5h4i3j2-k1l0-m9n8-o7p6-q5r4s3t2u1v0",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["AI", "AWS"],
+    },
+    title: "AWS Certified AI Practitioner",
+    description:
+      "The AWS Certified AI Practitioner certification demonstrates foundational knowledge of artificial intelligence and machine learning in AWS cloud environments.",
+    site_url: "https://aws.amazon.com/certification/certified-ai-practitioner/",
+    featured: true,
+    cost_usd: 100,
+    level: "Foundational",
+    validate_description:
+      "Validates foundational skills in AI/ML, covering AWS tools for machine learning and data science applications.",
+    key_features: [
+      "Basic machine learning, AI ethics, AWS AI services, and implementation guidance.",
+    ],
+    about_certifications:
+      "Best for individuals exploring AI, this certification validates an understanding of AWS ML services and practical applications of AI.",
+    exam_duration: 90,
+    passing_score: 700,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Establishes fundamental AI skills.",
+      "Prepares for advanced AI and ML AWS certifications.",
+      "Globally recognized foundational AI credential.",
+    ],
+  },
+  {
+    id: "x8y7z6w5-v4u3-2t1s-9r0q-p8o7n6m5k4j3",
+    created_at: "2024-06-01 08:30:00.000000+00",
+    tags: {
+      tags: ["Data Engineering", "AWS"],
+    },
+    title: "AWS Certified Data Engineer – Associate",
+    description:
+      "The AWS Certified Data Engineer – Associate certification validates expertise in data engineering solutions, data processing, and architecture on AWS.",
+    site_url:
+      "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+    featured: true,
+    cost_usd: 150,
+    level: "Associate",
+    validate_description:
+      "Certifies skills in designing, building, and maintaining analytics solutions on AWS.",
+    key_features: [
+      "Data architecture, storage solutions, data lakes, and data pipelines on AWS.",
+    ],
+    about_certifications:
+      "Ideal for professionals with experience in building and maintaining data solutions who want to validate their skills on AWS.",
+    exam_duration: 130,
+    passing_score: 720,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Proves expertise in AWS data engineering and analytics solutions.",
+      "Supports career opportunities in data-focused roles.",
+      "Recognized globally as a standard for AWS data engineering skills.",
+    ],
+  },
+  {
+    id: "b8c9e4d7-7d4e-4ef2-9d59-9d3b5f24496d",
+    created_at: "2024-10-28 08:30:00.000000+00",
+    tags: {
+      tags: ["Networking", "AWS"],
+    },
+    title: "AWS Certified Advanced Networking – Specialty",
+    description:
+      "The AWS Certified Advanced Networking – Specialty certification validates expertise in complex networking tasks. It demonstrates a candidate's ability to design, develop, and deploy cloud-based solutions using AWS.",
+    site_url:
+      "https://aws.amazon.com/certification/certified-advanced-networking-specialty/?ch=sec&sec=rmg&d=1",
+    featured: true,
+    cost_usd: 300,
+    level: "Specialty",
+    validate_description:
+      "Validates advanced skills in designing and implementing AWS and hybrid IT network architectures.",
+    key_features: [
+      "Designing and implementing AWS and hybrid IT network architectures.",
+      "Automating AWS network tasks and monitoring performance.",
+      "Implementing secure network architecture and optimizing performance.",
+    ],
+    about_certifications:
+      "The AWS Certified Advanced Networking – Specialty certification is intended for individuals who perform complex networking tasks and requires deep knowledge of AWS services and networking.",
+    exam_duration: 170,
+    passing_score: 750,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Demonstrates advanced technical skills in networking for AWS.",
+      "Recognized globally as an industry standard for networking expertise.",
+      "Helps professionals gain an edge in the job market by validating their skills.",
+    ],
+  },
+  {
+    id: "b8c9e4d7-7d4e-4ef2-4d59-9d3b5f24496d",
+    created_at: "2024-10-28 08:30:00.000000+00",
+    tags: {
+      tags: ["Security", "AWS"],
+    },
+    title: "AWS Certified Security – Specialty",
+    description:
+      "The AWS Certified Security – Specialty certification validates expertise in securing data and applications in the AWS environment. It demonstrates knowledge of security best practices and the ability to secure AWS workloads.",
+    site_url:
+      "https://aws.amazon.com/certification/certified-security-specialty/",
+    featured: true,
+    cost_usd: 300,
+    level: "Specialty",
+    validate_description:
+      "Validates advanced skills in securing applications and data in the AWS cloud.",
+    key_features: [
+      "Incident response and logging and monitoring in AWS.",
+      "Data protection and identity and access management.",
+      "Infrastructure security and compliance.",
+    ],
+    about_certifications:
+      "The AWS Certified Security – Specialty certification is designed for individuals who perform security roles and have at least two years of hands-on experience securing AWS workloads.",
+    exam_duration: 170,
+    passing_score: 750,
+    total_score: 1000,
+    img_url:
+      "https://ktksflhotvygublifdtb.supabase.co/storage/v1/object/public/certificate/icons/logos_aws.png?t=2024-05-30T05%3A00%3A44.849Z",
+    why_to_get_certified: [
+      "Demonstrates advanced technical skills in AWS security.",
+      "Recognized globally as a standard for security expertise.",
+      "Enhances credibility with clients and employers.",
+    ],
+  },
 ];
